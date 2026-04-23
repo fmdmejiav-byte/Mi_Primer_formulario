@@ -1,0 +1,73 @@
+/* Fondo */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Caja del formulario */
+.contenedor {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.9); /* transparente */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+}
+
+/* Texto pequeño */
+.info {
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Inputs y select */
+input, select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Botón */
+button {
+    button:hover {
+    background-color: darkblue;
+    transform: scale(1.05);
+}
+    margin-top: 15px;
+    width: 100%;
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+/* Hover */
+button:hover {
+    background-color: darkblue;
+}
+
+/* Footer */
+footer {
+    text-align:center;
+    background-color: rgba(255, 249, 249, 0.9);
+    background-position: 15px 15px;
+}

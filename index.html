@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Votación</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="contenedor">
+    <h1>🗳️ Registro de Votación</h1>
+<footer>
+    <p>&copy; Fabian Duran</p>
+</footer>
+
+    <p class="info">Por favor complete sus datos antes de votar.</p>
+
+    <form method="post">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej: Fabian" required>
+
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ej: Duran" required>
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required>
+
+        <label for="voto">Seleccione su voto</label>
+        <select id="voto" name="voto" required>
+            <option value="">-- Elija una opción --</option>
+            <option value="abelardo">Abelardo</option>
+            <option value="cepeda">Cepeda</option>
+            <option value="blanco">Voto en blanco</option>
+        </select>
+
+        <button type="submit">Registrar Voto</button>
+
+    </form>
+</div>
+
+
+</body>
+</html>
